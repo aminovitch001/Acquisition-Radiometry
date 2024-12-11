@@ -1,41 +1,40 @@
-# TP - Acquisition et Radiométrie (Master ATSI)
+# TP - Acquisition and Radiometry (Master ATSI)
 
-Ce dépôt contient un notebook Jupyter réalisé sur Google Colab dans le cadre des travaux pratiques sur l'acquisition et la radiométrie en Master ATSI.
+This repository contains a Jupyter notebook created on Google Colab as part of the practical work on acquisition and radiometry in the Master ATSI program.
 
 ## Description
 
-Ce projet a pour objectif d'explorer plusieurs aspects de l'analyse et du traitement des images numériques. Les points clés abordés incluent :
+The goal of this project is to explore various aspects of digital image analysis and processing. The key points covered include:
 
-- **Analyse des niveaux de gris** : étude des intensités pixelaires dans des images.
-- **Génération et analyse d'histogrammes** : extraction et visualisation de statistiques.
-- **Effets du bruit gaussien** : simulation et évaluation de son impact sur les textures, le contraste et la luminosité des images.
+- **Grayscale Analysis**: study of pixel intensities in images.
+- **Generation and Analysis of Histograms**: extraction and visualization of statistics.
+- **Effects of Gaussian Noise**: simulation and evaluation of its impact on textures, contrast, and brightness of images.
 
-Le notebook propose également des codes Python pour traiter et visualiser des résultats pertinents.
+The notebook also provides Python code to process and visualize relevant results.
 
-## Fonctionnalités principales
+## Main Features
 
-- Chargement et prétraitement d'images.
-- Génération de bruit gaussien et comparaison des images avant et après perturbation.
-- Calcul et affichage d'histogrammes pour analyser la répartition des niveaux de gris.
-- Analyse statistique des images.
+- Loading and preprocessing images.
+- Generation of Gaussian noise and comparison of images before and after disturbance.
+- Calculation and display of histograms to analyze the distribution of grayscale levels.
+- Statistical analysis of images.
 
-## Prérequis
+## Prerequisites
 
-Pour exécuter ce projet, vous aurez besoin des éléments suivants :
+To run this project, you will need the following:
 
-- **Google Colab** (ou tout environnement compatible avec les notebooks Jupyter).
-- **Bibliothèques Python** :
+- **Google Colab** (or any environment compatible with Jupyter notebooks).
+- **Python Libraries**:
   - `numpy`
   - `matplotlib`
   - `scipy`
   - `Pillow`
 
-## Installation et exécution
+## Installation and Execution
 
-1. Clonez ce dépôt sur votre machine locale :
+1. Clone this repository to your local machine:
    ```bash
-   git clone <URL-DU-DÉPÔT>
-   ```
+   git clone <REPOSITORY-URL>
 
 2. Ouvrez le fichier `TP Acquisition et Radiométrie.ipynb` sur Google Colab ou Jupyter Notebook.
 
@@ -49,24 +48,24 @@ Pour exécuter ce projet, vous aurez besoin des éléments suivants :
 ## Structure du projet
 
 - **Notebook principal** :
-  - `TP Acquisition et Radiométrie.ipynb` : contient tout le code et les explications.
+  - `TP Acquisition Radiometry.ipynb` : contains all the code and explanations.
 
-## Résultats attendus
+## Expected Results
 
-Le notebook génère :
+The notebook generates:
 
-- Des visualisations d'histogrammes avant et après ajout de bruit.
-- Une analyse comparative des images avec et sans bruit.
-- Des statistiques détaillées sur les niveaux de gris.
+- Visualizations of histograms before and after adding noise.
+- A comparative analysis of images with and without noise.
+- Detailed statistics on grayscale levels.
 
-## Auteurs
+## Authors
 
-- **Amine Dehri** - Master ATSI
+- **Amine Dehri** - 
 
-## Licence
+## License
 
-Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT). Vous êtes libre de l'utiliser, de le modifier et de le distribuer sous les conditions de cette licence.
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT)License. You are free to use, modify, and distribute it under the conditions of this license.
 
 ---
 
-N'hésitez pas à ouvrir une issue ou à proposer une pull request pour toute amélioration ou suggestion !
+Feel free to open an issue or propose a pull request for any improvements or suggestions!
