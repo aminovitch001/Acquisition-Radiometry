@@ -1,0 +1,72 @@
+# TP - Acquisition et Radiométrie (Master ATSI)
+
+Ce dépôt contient un notebook Jupyter réalisé sur Google Colab dans le cadre des travaux pratiques sur l'acquisition et la radiométrie en Master ATSI.
+
+## Description
+
+Ce projet a pour objectif d'explorer plusieurs aspects de l'analyse et du traitement des images numériques. Les points clés abordés incluent :
+
+- **Analyse des niveaux de gris** : étude des intensités pixelaires dans des images.
+- **Génération et analyse d'histogrammes** : extraction et visualisation de statistiques.
+- **Effets du bruit gaussien** : simulation et évaluation de son impact sur les textures, le contraste et la luminosité des images.
+
+Le notebook propose également des codes Python pour traiter et visualiser des résultats pertinents.
+
+## Fonctionnalités principales
+
+- Chargement et prétraitement d'images.
+- Génération de bruit gaussien et comparaison des images avant et après perturbation.
+- Calcul et affichage d'histogrammes pour analyser la répartition des niveaux de gris.
+- Analyse statistique des images.
+
+## Prérequis
+
+Pour exécuter ce projet, vous aurez besoin des éléments suivants :
+
+- **Google Colab** (ou tout environnement compatible avec les notebooks Jupyter).
+- **Bibliothèques Python** :
+  - `numpy`
+  - `matplotlib`
+  - `scipy`
+  - `Pillow`
+
+## Installation et exécution
+
+1. Clonez ce dépôt sur votre machine locale :
+   ```bash
+   git clone <URL-DU-DÉPÔT>
+   ```
+
+2. Ouvrez le fichier `TP Acquisition et Radiométrie.ipynb` sur Google Colab ou Jupyter Notebook.
+
+3. Installez les dépendances nécessaires si elles ne sont pas déjà disponibles dans votre environnement :
+   ```bash
+   pip install numpy matplotlib scipy pillow
+   ```
+
+4. Exécutez les cellules une à une pour voir les résultats.
+
+## Structure du projet
+
+- **Notebook principal** :
+  - `TP Acquisition et Radiométrie.ipynb` : contient tout le code et les explications.
+
+## Résultats attendus
+
+Le notebook génère :
+
+- Des visualisations d'histogrammes avant et après ajout de bruit.
+- Une analyse comparative des images avec et sans bruit.
+- Des statistiques détaillées sur les niveaux de gris.
+
+## Auteurs
+
+- **Amine Dehri** - Master ATSI
+
+## Licence
+
+Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT). Vous êtes libre de l'utiliser, de le modifier et de le distribuer sous les conditions de cette licence.
+
+---
+
+N'hésitez pas à ouvrir une issue ou à proposer une pull request pour toute amélioration ou suggestion !
