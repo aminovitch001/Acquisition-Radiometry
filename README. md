@@ -36,16 +36,16 @@ To run this project, you will need the following:
    ```bash
    git clone <REPOSITORY-URL>
 
-2. Ouvrez le fichier `TP Acquisition et Radiométrie.ipynb` sur Google Colab ou Jupyter Notebook.
+2. Open the file `TP Acquisition et Radiométrie.ipynb` on Google Colab or Jupyter Notebook.
 
-3. Installez les dépendances nécessaires si elles ne sont pas déjà disponibles dans votre environnement :
+3. Install the necessary dependencies if they are not already available in your environment:
    ```bash
    pip install numpy matplotlib scipy pillow
-   ```
 
-4. Exécutez les cellules une à une pour voir les résultats.
 
-## Structure du projet
+4. Run the cells one by one to see the results.
+
+## Project structure
 
 - **Notebook principal** :
   - `TP Acquisition Radiometry.ipynb` : contains all the code and explanations.
